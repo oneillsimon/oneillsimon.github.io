@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.my-title {
+    letter-spacing: .6em;
+    text-transform: uppercase;
+}
+
+#intro {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #27AE60;
+    color: #fff;
+}
+
+.project {
+    margin-top: 30px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #27AE60;
+    color: #fff;
+}
+
+footer #social a {
+    margin: 10px;
+    color: inherit;
+}
