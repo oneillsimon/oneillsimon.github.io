@@ -14,6 +14,16 @@ body {
     color: #fff;
 }
 
+#subintro {
+    text-align: left;
+    margin-top: 35px;
+}
+
+#osect {
+    padding: 5px;
+    background-color: #F0FFF0;
+}
+
 .project {
     margin-top: 30px;
 }
