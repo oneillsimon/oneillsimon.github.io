@@ -72,7 +72,57 @@
 	<main>
 	   <div class="container-fluid">
            <div id="intro">
-               Content goes here
+               <h1>Sol Game Engine</h1>
+               Sol Game Engine is a basic game engine built from scratch, featuring a custom rendering, physics and scripting engine. Developed as part of my final year project, this system is still very much unfinished and work on a new version will begin shortly.
+               <br><br>
+               <ul>
+                   <li><a style="color:#ffffff;"href="https://github.com/oneillsimon/gem">Download</a></li>
+                   <li><a style="color:#ffffff;"href="https://github.com/oneillsimon/gem">GitHub</a></li>
+               </ul>
+               
+               A detailed writeup on the design and implementation of this system is available at the link below.
+               <ul><li><a style="color:#ffffff" href="files/Sol_Game_Engine.pdf">Sol Game Engine Writeup</a></li></ul>
+           </div>
+           <div>
+               <h2>The Core Engine</h2>
+               <ul>
+                   <li>Custom maths library</li>
+                   <ul>
+                       <li>Vectors</li>
+                       <li>Matrices</li>
+                       <li>Quaternions</li>
+                   </ul>
+                   <li>Lua script support</li>
+                   <li>Entity - Comopenent System</li>
+                   <ul>
+                       <li>Parent - Child system</li>
+                   </ul>
+               </ul>
+               <h2>The Rendering Engine</h2>
+               <ul>
+                   <li>Supports .obj files</li>
+                   <li>Custom GLSL support</li>
+                   <ul>
+                       <li>Normal Mapping</li>
+                       <li>Displacement Mapping</li>
+                       <li>Shadow Mapping</li>
+                   </ul>
+                   <li>Phong Shading Model</li>
+                   <li>Lighting</li>
+                   <ul>
+                       <li>Directional lights</li>
+                       <li>Spot lights</li>
+                       <li>Point lights</li>
+                   </ul>
+                   <li>FXAA</li>
+
+               </ul>
+               <h2>The Physics Engine</h2>
+               <ul>
+                   <li>Broadphase Collision - Octrees</li>
+                   <li>Colliders - Spheres, Cubes and Planes</li>
+                   <li>Rigid body physics</li>
+               </ul>
            </div>
        </div>
 	</main>

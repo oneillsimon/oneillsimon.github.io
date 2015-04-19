@@ -75,6 +75,11 @@
                <h1>G.E.M.</h1>
                <b>NOTE GEM is still a work in progress, a complete API is on the way.</b>
                The <b>G</b>ood <b>E</b>nough <b>M</b>aths library is a collection of mathematical functions useful in the development of games.
+               <br><br>
+               <ul>
+                   <li><a style="color:#ffffff;"href="https://github.com/oneillsimon/gem">Download</a></li>
+                   <li><a style="color:#ffffff;"href="https://github.com/oneillsimon/gem">GitHub</a></li>
+               </ul>
            </div>
        </div>
        <div class="container-fluid">
@@ -100,7 +105,29 @@
         <p><code>gem::vector4d // vector4 of doubles</code></p>
         
     <p><h2>Matrices</h2></p>
+    <p>Matrices in GEM are row major and similar to vectors can be defined as any size. An example matrix constructor is shown.</p>
+    <p>
+        <code>gem::matrix&ltint&gt m = gem::matrix&ltint&gt({ { 1, 2, 3 },
+            { 4, 5, 6 } });</code>
+    </p>
+    <p>This will create a matrix of 2 rows and 3 columns. Another way to construct the same matrix would be to call.</p>
+    <p><code>gem::matrix&ltint&gt m = { { 1, 2, 3 },
+            { 4, 5, 6 } };</code></p>
+    <p>
+    Also like the vector class there are several predefined matrix types for commonly used matrices.</p>
+    <p><code>matrix4&ltT&gt // A 4x4 matrix of type T</code></p>
+    <p><code>matrix3&ltT&gt // A 3x3 matrix of type of T</code></p>
+    <p><code>matrix3i // 3x3 matrix on ints</code></p>
+    <p><code>matrix3f // 3x3 matrix on floats</code></p>
+    <p><code>matrix3d // 3x3 matrix on doubles</code></p>
+    <p><code>matrix4i // 4x4 matrix on ints</code></p>
+    <p><code>matrix4f // 4x4 matrix on floats</code></p>
+    <p><code>matrix4d // 4x4 matrix on doubles</code></p>
     <p><h2>Quaternions</h2></p>
+    Quaternions are used for storing rotation in 3D space. A quaternion can either be constructed using 4 elements.
+    <p><code>gem::quaternion q = quaternion(0, 0, 0, 1);</code></p>
+    <p>Or a quaternion can be constructed using a vector3 and a scalar value.</p>
+    <p><code>gem::quaternion q = quaternion(vector3f(0, 1, 0), 1);</code></p>
        </div>
 	</main>
 	
