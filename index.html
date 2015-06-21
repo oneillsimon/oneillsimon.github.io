@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    
+
     <link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72x72.png">
@@ -32,152 +32,104 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-TileImage" content="img/ico/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
 </head>
 
 <body>
-
-    <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!-- Your Name -->
                     <h1 class="text-center animated fadeIn">Simon O&#39;Neill - Portfolio</h1>
-                    
-                    <!-- Your Title -->
                     <h2 class="my-title text-center animated fadeIn delay-1">Coder</h2>
-                    
-                    <!-- The 'Code' Logo -->
                     <h2 class="text-center"><span class="fa-stack fa-lg animated rollIn delay-2">
                         <i class="fa fa-code fa-stack-1x"></i>
                         <i class="fa fa-circle-thin fa-stack-2x" style="color: #27AE60;"></i>
                         </span>
                     </h2>
-                    <div class="container-fluid">
-                        <table>
-                            <tr>
-                                <td id="navbar"><a href="index.html">Home</a></td>
-                                <td id="navbar"><a href="contact.html">Contact</a></td>
-                                <td id="navbar"><a href="index.html#Projects">Projects</a></td>
-                                <td id="navbar"><a href="index.html#CV">CV</a></td>
-                            </tr>
-                        </table>
-                    </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Main Content -->
+    
     <main>
-        
-        <!-- About Me -->
         <div class="container-fluid">
             <div id="intro" class="row">
                 <div class="col-md-12">
-                    <h2>About Me</h2>
-                    
-                    <!-- Edit this <p>... -->
+                    <h2 class="text-center">About Me</h2>
                     <p>I'm Simon O'Neill, a current undergraduate at DIT. I like to code, from small scripts to massive projects. The more complicated the project, the more interested I am. I'm experienced in C/C++, C# and Java with some minor experience in MatLab, Lua, Bash, HTML and PHP. Mostly I write PC applications but I've done some mobile work on Android and Windows Phone. Below I've listed some of my projects that you might find interesting. If you'd like to contact me I'm on <a style="color:#ffffff;" href="https://github.com/oneillsimon">GitHub</a>, <a style="color:#ffffff;" href="https://linkedin.com/in/oneillsimon">Linkedin</a> and <a style="color:#ffffff;" href="https://linkedin.com/in/oneillsimon">Twitter</a>, or if you'd prefer you can always send me an <a style="color:#ffffff;" href="mailto:simon@simononeill.me">e-mail</a>.</p>
                 </div>
             </div>
         </div>
-        
-        <!-- Projects -->
+
         <div class="container-fluid">
-            
-            <div id="subintro" class="row text-center">
+            <div class="row text-center">
                 <div class="col-md-12">
-                    <h1><b><a name="Projects"></a></a>Projects</b></h1>
+                    <h1 id="projects">Projects</h1>
                 </div>
             </div>
-
-            <!-- Project 1 -->
             <div id="osect" class="row project">
                 <div class="col-md-3 text-center">
                     <h1>G.E.M.</h1>
                 </div>
                 <div class="col-md-9">
-                    <p>The <b>G</b>ood <b>E</b>nough <b>M</b>aths library is a small C++ header only maths library for game development. Written with versatility in mind, this library contains classes for vectors, matrices and quaternions. <a href="gem.html">Read more...</a></p>
+                    <p>The <b>G</b>ood <b>E</b>nough <b>M</b>aths library is a small C++ header only maths library for game development. Written with versatility in mind, this library contains classes for vectors, matrices and quaternions. <a href="gem.html">Read more...</a>
+                    </p>
                 </div>
                 <div class="col-md-9">
-                    <ul>
-                    <li>No direct download yet. This project is still in the works, check out the GitHub link below.</li>
-                    <li><a href="https:github.com/oneillsimon/gem">View on GitHub</a>.</li>
-                    </ul>
+                    No direct download yet. This project is still in the works, check out the GitHub link below.
+                    <br>
+                    <a class="btn btn-green" href="https:github.com/oneillsimon/gem"><span class="fa fa-github"></span> View on GitHub</a>
                 </div>
             </div>
-
-            <!-- Project 2 -->
             <div class="row project">
                 <div class="col-md-3 text-center">
                     <h1>Game Engine</h1>
                 </div>
                 <div class="col-md-9">
-                    <p>An engine for developing 3D ccomputer games. Built from scratch, this sytem supports Lua scripting and implements a custom maths library, rendering engine and physics engine. <a href="gameengine.html">Read more...</a></p>
+                    <p>An engine for developing 3D ccomputer games. Built from scratch, this sytem supports Lua scripting and implements a custom maths library, rendering engine and physics engine. <a href="gameengine.html">Read more...</a>
+                    </p>
                 </div>
                 <div class="col-md-9">
-                    <ul>
-                    <li><a href="projects/gameengine.zip">Download</a></li>
-                    <li><a href="https://github.com/oneillsimon/GameEngine">View on GitHub</a>.</li>
-                    </ul>
+                    <a class="btn btn-green" href="projects/gameengine.zip" style="margin-right: 10px;"><span class="fa fa-download"></span> Download</a>
+                    <a class="btn btn-green" href="https://github.com/oneillsimon/GameEngine"><span class="fa fa-github"></span> View on GitHub</a>
                 </div>
             </div>
-
-            <!-- Project 3 -->
             <div id="osect" class="row project">
                 <div class="col-md-3 text-center">
                     <h1>Drow Word Processor</h1>
                 </div>
                 <div class="col-md-9">
-                    <p>Drow is an open source word processor developed in Java for a team project in my 3rd year of college. The application itself is very buggy but it was an interesting project from which I learned a lot. <a href="drow.html">Read more...</a></p>
+                    <p>Drow is an open source word processor developed in Java for a team project in my 3rd year of college. The application itself is very buggy but it was an interesting project from which I learned a lot. <a href="drow.html">Read more...</a>
+                    </p>
                 </div>
                 <div class="col-md-9">
-                    <ul>
-                    <li><a href="projects/drow.zip">Download</a></li>
-                    <li><a href="https://github.com/oneillsimon/Drow">View on GitHub</a>.</li>
-                    </ul>
+                    <a class="btn btn-green" href="projects/drow.zip" style="margin-right: 10px;"><span class="fa fa-download"></span> Download</a>
+                    <a class="btn btn-green" href="https://github.com/oneillsimon/Drow"><span class="fa fa-github"></span> View on GitHub</a>
                 </div>
             </div>
-
-            <!-- Project 4 -->
             <div class="row project">
                 <div class="col-md-3 text-center">
                     <h1>Game of Life</h1>
                 </div>
                 <div class="col-md-9">
-                    <p>An implementation of George Conway's Game of Life for Windows Phone. The Game of Life is a cellular automation that illustrates how complexity can come from simplicity. Currently at over 1k downloads, this app is freely available on the Windows Store. <a href="gameoflife.html">Read more...</a></p>
+                    <p>An implementation of George Conway's Game of Life for Windows Phone. The Game of Life is a cellular automation that illustrates how complexity can come from simplicity. Currently at over 1k downloads, this app is freely available on the Windows Store. <a href="gameoflife.html">Read more...</a>
+                    </p>
                 </div>
                 <div class="col-md-9">
-                    <ul>
-                    <li><a href="http://www.windowsphone.com/en-gb/store/app/game-of-life/e292ba31-94bc-46bd-b4f9-6fa94b5d91bb">View on Windows Store</a></li>
-                    </ul>
+                    <a class="btn btn-green" href="http://www.windowsphone.com/en-gb/store/app/game-of-life/e292ba31-94bc-46bd-b4f9-6fa94b5d91bb"><span class="fa fa-windows"></span> View on Windows Store</a>
                 </div>
             </div>
         </div>
-        
-        <hr>
-        
-        <!-- OTHER STUFF -->
-
-        </div>
     </main>
 
-    <!-- Footer Content -->
     <footer>
         <div class="container-fluid">
             <div class="row">
                 <div id="social" class="col-md-12 text-center">
-                    
-                    <!-- GitHub Link -->
+                    <a href="#" target="_blank"><span class="fa fa-envelope fa-2x"></span></a>
                     <a href="https://github.com/oneillsimon" target="_blank"><span class="fa fa-github fa-2x"></span></a>
-                    
-                    <!-- LinkedIn Link -->
                     <a href="https://linkedin.com/in/oneillsimon" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
-                    
-                    <!-- Twitter Link -->
-                    <a href="#" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+                    <a href="https://twitter.com/soneill_" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
                 </div>
             </div>
         </div>
@@ -186,15 +138,3 @@
 </body>
 
 </html>
-
-<!-- ROW TEMPLATE -->
-<!--
-<div class="row project">
-    <div class="col-md-3 text-center">
-        <h1></h1>
-    </div>
-    <div class="col-md-9">
-        <p></p>
-    </div>
-</div>
--->

@@ -1,53 +1,59 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .my-title {
     letter-spacing: .6em;
     text-transform: uppercase;
 }
-
 #intro {
     padding: 20px;
-    margin-top: 10px;
     background-color: #27AE60;
     color: #fff;
 }
-
 #subintro {
     text-align: left;
     margin-top: 35px;
 }
-
-#foot {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
 #osect {
     padding: 5px;
     background-color: #F0FFF0;
     vertical-align: middle;
 }
-
-#navbar {
-    padding: 10px;
-    width: 100pc;
-    text-align: center
-}
-
 .project {
     margin-top: 30px;
 }
-
 footer {
+    margin-top: 20px;
     padding: 20px;
     background-color: #27AE60;
     color: #fff;
 }
-
 footer #social a {
     margin: 10px;
     color: inherit;
+}
+.btn-green {
+    color: #fff;
+    background-color: #27AE60;
+}
+.btn-green:hover {
+    color: #fff;
+}
+.btn-white {
+    color: #27AE60;
+    background-color: #fff;
+}
+.btn-white:hover {
+    color: #27AE60;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 60px;
+}
+.wrapper:after {
+    content: "";
+    display: block;
+}
+.stick, .wrapper:after {
+    height: 60px;
 }

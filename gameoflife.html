@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Simon O&#39;Neill | Portfolio</title>
+    <title>Simon O&#39;Neill | Game of Life</title>
     <meta charset="utf-8">
     <meta name="author" content="Stephen Samra">
     <meta name="description" content="">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    
+
     <link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-touch-icon-72x72.png">
@@ -32,80 +32,43 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-TileImage" content="img/ico/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    
 </head>
 
 <body>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Your Name -->
-                    <h1 class="text-center animated fadeIn">Simon O&#39;Neill - Portfolio</h1>
-                    
-                    <!-- Your Title -->
-                    <h2 class="my-title text-center animated fadeIn delay-1">Coder</h2>
-                    
-                    <!-- The 'Code' Logo -->
-                    <h2 class="text-center"><span class="fa-stack fa-lg animated rollIn delay-2">
-                        <i class="fa fa-code fa-stack-1x"></i>
-                        <i class="fa fa-circle-thin fa-stack-2x" style="color: #27AE60;"></i>
-                        </span>
-                    </h2>
-                    <div class="container-fluid">
-                        <table>
-                            <tr>
-                                <td id="navbar"><a href="index.html">Home</a></td>
-                                <td id="navbar"><a href="contact.html">Contact</a></td>
-                                <td id="navbar"><a href="index.html#Projects">Projects</a></td>
-                                <td id="navbar"><a href="index.html#CV">CV</a></td>
-                            </tr>
-                        </table>
+    <div class="wrapper">
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div id="intro" class="col-md-12 text-center">
+                        <h1>George Conway's: A Game of Life</h1>
+                        <a class="btn btn-white" href="index.html"><span class="fa fa-arrow-left"></span> Back</a>
+                        <a class="btn btn-white" href="http://www.windowsphone.com/en-gb/store/app/game-of-life/e292ba31-94bc-46bd-b4f9-6fa94b5d91bb"><span class="fa fa-windows"></span> View on the Windows Store</a>
                     </div>
+                </div>
+                <div>
+                    <br>
+                    <p>The Game of Life is a cellular automaton devised by the British mathematician John Conway. The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves. Developed in my 2nd year of college, this version of A Game of Life currently sits at over 1000 downloads on the Windows Phone. Unfortunately the source code seems to have become lost but if I ever retrieve it I will post it here.</p>
+                </div>
+                <div class="container-fluid">
+                    <img src="img/gol/gol1.png" width="165" height="274">
+                    <img src="img/gol/gol2.png" width="165" height="274">
+                    <img src="img/gol/gol3.png" width="165" height="274">
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="stick">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="social" class="col-md-12 text-center">
+                    <a href="#" target="_blank"><span class="fa fa-envelope fa-2x"></span></a>
+                    <a href="https://github.com/oneillsimon" target="_blank"><span class="fa fa-github fa-2x"></span></a>
+                    <a href="https://linkedin.com/in/oneillsimon" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
+                    <a href="https://twitter.com/soneill_" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
                 </div>
             </div>
         </div>
-    </header>
-	
-	<main>
-	   <div class="container-fluid">
-           <div id="intro">
-               <h1>George Conway's: A Game of Life</h1>
-               <ul>
-                   <li><a style="color:#ffffff"  href="http://www.windowsphone.com/en-gb/store/app/game-of-life/e292ba31-94bc-46bd-b4f9-6fa94b5d91bb">View on the Windows Store</a></li>
-               </ul>
-           </div>
-           <div>
-               <br>
-               <p>The Game of Life is a cellular automaton devised by the British mathematician John Conway. The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
-           Developed in my 2nd year of college, this version of A Game of Life currently sits at over 1000 downloads on the Windows Phone. Unfortunately the source code seems to have become lost but if I ever retrieve it I will post it here.</p></div>
-           <div class="container-fluid">
-                      <img src="img/gol/gol1.png" width="165" height="274">
-                      <img src="img/gol/gol2.png" width="165" height="274">
-                      <img src="img/gol/gol3.png" width="165" height="274">
-           </div>
-       </div>
-	</main>
-	
-	<footer>
-		<div class="container-fluid">
-			<div class="row">
-				<div id="social" class="col-md-12 text-center">
-					
-					<!-- GitHub Link -->
-					<a href="https://github.com/oneillsimon" target="_blank"><span class="fa fa-github fa-2x"></span></a>
-					
-					<!-- LinkedIn Link -->
-					<a href="https://linkedin.com/in/oneillsimon" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
-					
-					<!-- Twitter Link -->
-					<a href="#" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+    </footer>
 
 </body>
 
